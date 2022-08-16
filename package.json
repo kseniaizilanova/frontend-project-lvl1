@@ -1,8 +1,8 @@
 {
-  "name": "@hexlet/code",
+  "name":"@hexlet/code",
   "version": "1.0.0",
   "type" :"module",
-  "description": "[![Actions Status](https://github.com/kseniaizilanova/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/kseniaizilanova/frontend-project-lvl1/actions)",
+  "description": "hexlet-project-lvl1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/kseniaizilanova/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "Ksenia Izilanova",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kseniaizilanova/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/kseniaizilanova/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/kseniaizilanova/frontend-project-lvl1#readme",
+  "bin": {
+	    "brain-games": "bin/brain-games.js"
+  }
 }
